@@ -1,0 +1,10 @@
+--nosql
+
+--type-add
+css=.scss
+
+--type-add
+ruby=.haml
+
+--type-set
+coffee=.coffee
