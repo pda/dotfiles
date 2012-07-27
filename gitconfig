@@ -1,0 +1,18 @@
+[user]
+	name = Paul Annesley
+	email = paul@annesley.cc
+[color]
+	ui = auto
+[alias]
+	aa = add --all
+	ci = commit
+	co = checkout
+  d  = diff
+	dc = diff --cached
+	l  = log --graph
+	r  = !git --no-pager l -20
+	st = status
+[push]
+	default = current
+[format]
+	pretty = format:%C(blue)%h%C(reset) - %s %C(green)- %an%C(reset) %C(blue)(%ar)%C(reset)
