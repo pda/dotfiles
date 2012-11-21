@@ -6,5 +6,8 @@ css=.scss
 --type-add
 ruby=.haml
 
+--type-add
+ruby=.jbuilder
+
 --type-set
 coffee=.coffee
