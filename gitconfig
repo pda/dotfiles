@@ -18,3 +18,5 @@
 	pretty = format:%C(blue)%h%C(reset) - %s %C(green)- %an%C(reset) %C(blue)(%ar)%C(reset)
 [rerere]
 	enabled = true
+[core]
+	excludesFile = ~/.gitignore
