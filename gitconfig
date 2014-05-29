@@ -3,6 +3,7 @@
 	email = paul@annesley.cc
 [color]
 	ui = auto
+
 [alias]
 	aa = add --all
 	ci = commit
@@ -12,11 +13,15 @@
 	l  = log --graph
 	r  = !git --no-pager l -20
 	st = status
+
 [push]
-	default = upstream
+	default = simple # will be default in Git 2.0
+
 [format]
 	pretty = format:%C(blue)%h%C(reset) - %s %C(green)- %an%C(reset) %C(blue)(%ar)%C(reset)
+
 [rerere]
 	enabled = true
+
 [core]
 	excludesFile = ~/.gitignore
