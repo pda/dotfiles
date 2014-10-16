@@ -10,6 +10,7 @@
 	co = checkout
 	d  = diff
 	dc = diff --cached
+	ff = merge --ff-only
 	l  = log --graph
 	r  = !git --no-pager l -20
 	st = status
