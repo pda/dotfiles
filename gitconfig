@@ -21,6 +21,9 @@
 [push]
 	default = simple # default as of Git 2.0
 
+[fetch]
+	prune = true
+
 [format]
 	pretty = format:%C(blue)%h%C(reset) - %s %C(green)- %an%C(reset) %C(blue)(%ar)%C(reset)
 
