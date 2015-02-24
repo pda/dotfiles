@@ -39,3 +39,6 @@
 
 [merge]
 	defaultToUpstream = true
+
+[advice]
+	detachedHead = 0
