@@ -1,8 +1,6 @@
 [user]
 	name = Paul Annesley
 	email = paul@annesley.cc
-[color]
-	ui = auto
 
 [alias]
 	aa = add --all
@@ -11,21 +9,16 @@
 	d  = diff
 	dc = diff --cached
 	ff = merge --ff-only
-	l  = log --graph
-	r  = !git --no-pager l -20
+	l  = log --graph --format='format:%C(244)%h%C(reset) %s %C(244)%an%C(reset) %C(238)%ar%C(reset)'
+	ld = log --graph --format='format:%C(244)%h%C(reset)%C(auto)%d%C(reset) %s'
+	r  = log --graph --format='format:%C(244)%h%C(reset) %s %C(244)%an%C(reset) %C(238)%ar%C(reset)' -20
 	st = status
 
 [pull]
-  ff = only
-
-[push]
-	default = simple # default as of Git 2.0
+	ff = only
 
 [fetch]
 	prune = true
-
-[format]
-	pretty = format:%C(blue)%h%C(reset) %s %C(green)%an%C(reset) %C(blue)%ar%C(reset)
 
 [rerere]
 	enabled = true
