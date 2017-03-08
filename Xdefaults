@@ -1,0 +1,33 @@
+URxvt*background: black
+URxvt*foreground: white
+URxvt*cursorColor: gray50
+URxvt*color0: black
+URxvt*color1: red3
+URxvt*color2: green3
+URxvt*color3: yellow3
+URxvt*color4: blue2
+URxvt*color5: magenta3
+URxvt*color6: cyan3
+URxvt*color7: gray90
+URxvt*color8: grey50
+URxvt*color9: red
+URxvt*color10: green
+URxvt*color11: yellow
+URxvt*color12: blue
+URxvt*color13: magenta
+URxvt*color14: cyan
+URxvt*color15: white
+
+URxvt*scrollBar: false
+URxvt*visualBell: false
+
+URxvt*font:     xft:Inconsolata:pixelsize=16:antialias=true:hinting=slight,xft:DejaVuSansMono
+URxvt*boldFont: xft:Inconsolata:style=bold:pixelsize=16:antialias=true:hinting=slight,xft:DejaVuSansMono
+
+URxvt.geometry: 140x32
+URxvt.iso14755: false
+
+URxvt.perl-ext-common: default,fullscreen,matcher,selection-to-clipboard
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+URxvt.keysym.F11: perl:fullscreen:switch
