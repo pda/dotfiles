@@ -13,7 +13,7 @@ URxvt*color8: grey50
 URxvt*color9: red
 URxvt*color10: green
 URxvt*color11: yellow
-URxvt*color12: blue
+URxvt*color12: #2080FF
 URxvt*color13: magenta
 URxvt*color14: cyan
 URxvt*color15: white
@@ -21,8 +21,8 @@ URxvt*color15: white
 URxvt*scrollBar: false
 URxvt*visualBell: false
 
-URxvt*font:     xft:Inconsolata:pixelsize=16:antialias=true:hinting=slight,xft:DejaVuSansMono
-URxvt*boldFont: xft:Inconsolata:style=bold:pixelsize=16:antialias=true:hinting=slight,xft:DejaVuSansMono
+URxvt*font:     xft:Ubuntu Mono:pixelsize=18:antialias=true:hinting=slight,xft:DejaVuSansMono
+URxvt*boldFont: xft:Ubuntu Mono:style=bold:pixelsize=18:antialias=true:hinting=slight,xft:DejaVuSansMono
 
 URxvt.geometry: 140x32
 URxvt.iso14755: false
