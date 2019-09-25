@@ -1,19 +1,14 @@
 [user]
 	name = Paul Annesley
 	email = paul@annesley.cc
-	signingkey = C90225CEB8768E7B
 
 [alias]
 	aa = add --all
 	ci = commit
-	co = checkout
 	d  = diff
 	dc = diff --cached
 	ff = merge --ff-only
-  fff = !git fetch && git status && git merge --ff-only
-	l  = log --graph --format='format:%C(244)%h%C(reset) %s %C(244)%an%C(reset) %C(238)%ar%C(reset)'
-	ld = log --graph --format='format:%C(244)%h%C(reset)%C(auto)%d%C(reset) %s'
-	r  = log --graph --format='format:%C(244)%h%C(reset) %s %C(244)%an%C(reset) %C(238)%ar%C(reset)' -20
+	l  = log --graph --format='tformat:%C(244)%h%C(reset) %s %C(244)%an%C(reset) %C(238)%ar%C(reset)'
 	st = status
 
 [pull]
@@ -28,16 +23,12 @@
 [core]
 	excludesFile = ~/.gitignore
 
-#[url "git@github.com:"]
-#	insteadOf = https://github.com/
-#	pushInsteadOf = git://github.com/
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+	pushInsteadOf = git://github.com/
 
 [merge]
 	defaultToUpstream = true
 
 [advice]
 	detachedHead = 0
-[commit]
-	gpgsign = true
-[gpg]
-	program = gpg2
