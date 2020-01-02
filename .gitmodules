@@ -1,0 +1,3 @@
+[submodule "/home/pda/.dotfiles/tmux-yank"]
+	path = /home/pda/.dotfiles/tmux-yank
+	url = https://github.com/tmux-plugins/tmux-yank
