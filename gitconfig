@@ -23,9 +23,6 @@
 	excludesFile = ~/.gitignore
 	quotePath = false # show unicode in paths e.g. in git status
 
-[url "git@github.com:"]
-	insteadOf = https://github.com/
-	pushInsteadOf = git://github.com/
 
 [merge]
 	defaultToUpstream = true
