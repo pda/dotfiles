@@ -31,3 +31,6 @@
 
 [advice]
 	detachedHead = 0
+
+[commit]
+	verbose = 2
