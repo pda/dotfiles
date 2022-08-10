@@ -3,7 +3,6 @@
 	email = paul@annesley.cc
 
 [alias]
-	aa = add --all
 	ci = commit
 	d  = diff
 	dc = diff --cached
