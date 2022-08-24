@@ -1,7 +1,12 @@
 #!/bin/sh
 
-ln -s .dotfiles/gemrc .gemrc
-ln -s .dotfiles/gitconfig .gitconfig
-ln -s .dotfiles/gitignore .gitignore
-ln -s .dotfiles/irbrc .irbrc
-ln -s .dotfiles/tmux.conf .tmux.conf
+mkdir -p ~/.config/git
+ln -snf ../../.dotfiles/gitconfig ~/.config/git/config
+ln -snf ../../.dotfiles/gitignore ~/.config/git/ignore
+
+ln -snf ../../.dotfiles/ripgreprc ~/.config/ripgreprc
+
+mkdir -p ~/.config/tmux
+ln -snf ../../.dotfiles/tmux.conf ~/.config/tmux/tmux.conf
+
+ln -snf .dotfiles/irbrc ~/.irbrc
