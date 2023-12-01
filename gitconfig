@@ -33,3 +33,6 @@
 
 [commit]
 	verbose = 2
+
+[init]
+	defaultBranch = main
