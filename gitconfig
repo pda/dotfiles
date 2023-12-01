@@ -39,3 +39,6 @@
 
 [push]
 	autoSetupRemote = true
+
+[rebase]
+	autoSquash = true
