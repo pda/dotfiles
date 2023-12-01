@@ -10,3 +10,6 @@ mkdir -p ~/.config/tmux
 ln -snf ../../.dotfiles/tmux.conf ~/.config/tmux/tmux.conf
 
 ln -snf .dotfiles/irbrc ~/.irbrc
+
+mkdir -p ~/.config/rubocop
+ln -snf ../../.dotfiles/rubocop.yml ~/.config/rubocop/.rubocop.yml
