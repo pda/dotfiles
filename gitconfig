@@ -8,6 +8,7 @@
 	ff = merge --ff-only
 	l  = log --graph --format='tformat:%C(244)%h%C(reset) %s %C(244)%an%C(reset) %C(238)%ar%C(reset)'
 	st = status
+	b = for-each-ref --sort=-committerdate refs/heads/ --format '%(color:dim)%(objectname:short)%(color:reset) %(color:black)%(HEAD)%(color:reset)%(if)%(HEAD)%(then)%(color:green bold)%(else)%(color:green)%(end)%(align:32)%(refname:lstrip=2)%(end)%(color:reset) %(color:blue dim)± %(align:6)%(ahead-behind:main)%(end) %(color:blue dim)%(align:12)%(committerdate:relative)%(end)%(color:reset)%(color:reset) %(color:dim)%(contents:lines=1)%(color:reset)'
 
 [pull]
 	ff = only
