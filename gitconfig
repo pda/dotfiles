@@ -23,9 +23,6 @@
 	excludesFile = ~/.config/git/ignore
 	quotePath = false # show unicode in paths e.g. in git status
 
-[url "git@gist.github.com:"]
-	pushInsteadOf = https://gist.github.com/pda/
-
 [merge]
 	defaultToUpstream = true
 
