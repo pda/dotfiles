@@ -1,0 +1,9 @@
+font-family = Ubuntu Mono
+font-size = 16
+macos-non-native-fullscreen = true
+macos-titlebar-proxy-icon = hidden
+window-height = 42
+window-width = 140
+theme = jellybeans
+background = black
+palette = 2=#88d979
