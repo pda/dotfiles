@@ -7,3 +7,6 @@ window-width = 140
 theme = jellybeans
 background = black
 palette = 2=#88d979
+
+# damned if I do (can't curly-quote etc), damned if I don't (can't alt-whatever shortcut)
+# macos-option-as-alt = left
